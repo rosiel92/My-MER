@@ -5,21 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="1">
+    android:weightSum="1"
+    android:background="@drawable/shape_linear_layout"
+    >
 
     <TextView
         android:id="@+id/tema"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="tema"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
 
     <TextView
         android:id="@+id/descricao"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="descrição"
-        android:textSize="25dp"/>
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"/>
 
     <ImageView
         android:id="@+id/imagem"
@@ -27,6 +32,9 @@
         android:layout_height="88dp"
         android:layout_weight="0.12"
         android:scaleType="fitXY"
-        android:src="@drawable/terraer" />
+        android:src="@drawable/terraer"
+        android:layout_marginTop="10dp"/>
+
+
 
 </LinearLayout>
